@@ -17,5 +17,5 @@ def count_words(file_name):
 
 word_count_list = count_words('test.txt').items()
 # print(word_count_list) #-> keys only
-# for line, word in word_count_list:
-#     print(line, word)
+for line, count in word_count_list:
+    print(line, count)
